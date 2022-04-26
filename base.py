@@ -11,9 +11,9 @@ def main():
  
  
     cv2.imshow('Imagem original', img)
-    cv2.imshow('Cinza', gray)
+    #cv2.imshow('Cinza', gray)
     cv2.imshow('Binaria', binaria)
-    cv2.imshow('Desfoque', desfoque)
+    #cv2.imshow('Desfoque', desfoque)
        
     cv2.waitKey(0)
     cv2.destroyAllWindows()
